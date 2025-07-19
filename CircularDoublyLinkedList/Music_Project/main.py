@@ -1,6 +1,6 @@
 import pygame
 import os
-from playList import CircularDoublyLinkedList
+from CircularDoublyLinkedList.Music_Project.playList import CircularDoublyLinkedList
 
 class musicPlayer:
     def __init__(self):
