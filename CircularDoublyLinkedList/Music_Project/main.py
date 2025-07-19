@@ -6,7 +6,7 @@ class musicPlayer:
     def __init__(self):
         self.play_list=CircularDoublyLinkedList()
         self.current_song=""
-        pygame.mixer.init()
+        pygame.mixer_music.init()
     
     def load_music_folder(self,folder_path):
         if folder_path:
